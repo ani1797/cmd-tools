@@ -1,17 +1,21 @@
 {
-  "name": "cmd-tools",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Anirudh Aggarwal <ani.aggarwal@mail.utoronto.ca>",
-  "license": "MIT",
-  "private": false,
-  "bin": {
-    "dep":"src/commands/dep.js",
-    "clean":"src/commands/clean.js"
-  },
-  "dependencies": {
-    "commander": "^2.15.1",
-    "inquirer": "^6.0.0"
-  },
-  "devDependencies": {}
+    "name": "cmd-tools",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Anirudh Aggarwal <ani.aggarwal@mail.utoronto.ca>",
+    "license": "MIT",
+    "private": false,
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/ani1797/cmd-tools.git"
+    },
+    "bin": {
+        "dep": "src/commands/dep.js",
+        "clean": "src/commands/clean.js"
+    },
+    "dependencies": {
+        "commander": "^2.15.1",
+        "inquirer": "^6.0.0"
+    },
+    "devDependencies": {}
 }
